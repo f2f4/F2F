@@ -1,0 +1,361 @@
+/* General CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Tilt+Neon&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+
+    /* Background Color */
+    --bg-dark: #111;
+    --bg-white: #fff;
+
+    /* Text Colors */
+    --primary-text: #061738;
+    --secondary-color: #60cd12;
+    --light-color: #e2f6de;
+    --dark-color: #03262c;
+    --text-white: #fff;
+    --text-gray: #dee2e6;
+    --anchor-color: #007aff;
+
+    /* green color */
+    --primary-green: #00ED64;
+    --secondary-green: #13aa52;
+    --tertiary-green: #023430;
+
+    /*  */
+
+    /* Font Family */
+    --primary-font: 'Tilt Neon', cursive;
+    --secondary-font: 'Caveat Brush', cursive;
+}
+
+
+body,
+html {
+    color: var(--primary-text);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--primary-text);
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--primary-text);
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-text);
+}
+
+
+p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--primary-text);
+}
+
+embed,
+iframe,
+img,
+object {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    background:var(--white); 
+} 
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+}  
+
+
+
+/* button */
+
+.main-btn {
+    background-color: #00ED64;
+    color: var(--primary-text);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 16px 32px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    font-family: var(--primary-font);
+    transition: 0.1s;
+}
+
+.main-btn:hover {
+    border-radius: 3rem;
+}
+
+
+/* navbar */
+.eventRemainder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 0.5rem;
+    background-color: var(--secondary-green);
+}
+
+.eventBtn {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: var(--primary-font);
+    color: var(--text-white);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2em;
+    z-index: 9;
+    transition: 0.7s;
+    background-color: var(--bg-white);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogo {
+    width: 7rem;
+    height: 5rem;
+    margin: 0 3rem;
+}
+
+nav .container-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav .container ul li {
+    display: inline-block;
+    margin: 0 2.4rem;
+}
+
+nav .container ul li a {
+    font-size: 2rem;
+    color: var(--primary-text);
+}
+
+
+
+
+
+
+
+
+
+/* homepage */
+.homeContainer {
+    padding-top: 20vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    height: 100vh;
+    background: #023430;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: start;
+
+    border-bottom-right-radius: 50%;
+}
+
+.informationContainer {
+    max-width: 600px;
+}
+
+.informationContainer h1 {
+    color: wheat;
+    padding: 2rem 0;
+    font-size: 7rem;
+}
+
+.informationContainer h3 {
+    color: white;
+    padding: 1.5rem 0;
+    font-size: 4rem;
+}
+
+.informationContainer p {
+    color: #ccc;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+
+
+
+
+/* trusties */
+.trustContainer {
+    margin: 7rem 3rem 5rem 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.investFarms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.trustContainer img {
+    width: 20rem;
+    margin: 0 2rem;
+}
+
+
+
+/* learnign container */
+.learningContainer {
+    box-sizing: border-box;
+    margin: 7rem 3rem 5rem 3rem;
+    padding: 3rem 5rem 3rem 7rem;
+    border-radius: 5rem;
+    min-height: 60vh;
+    background: linear-gradient(to left, var(--tertiary-green), var(--secondary-green));
+}
+
+.learningContainer .learningInfo {
+    max-width: 600px;
+}
+
+.learningContainer .learningInfo h3 {
+    color: white;
+    margin: 2rem 0;
+}
+
+.learningContainer .learningInfo p {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin: 2rem 0;
+}
+
+
+
+
+
+
+
+/* footer */
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7rem 3rem 5rem 3rem;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.logoContainer {
+    text-align: center;
+}
+
+.logoContainer img {
+    width: 8rem;
+    margin: 0 4rem;
+}
+
+.pageLinks ul li {
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.social-icon ul {
+    list-style-type: none;
+}
+
+.social-icon ul li a {
+    font-size: 2.5rem;
+    color: #111;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    background-color: #ccc;
+}
+
+
+
+
+/* responsive design */
+@media only screen and (max-width: 600px) {
+    nav .container ul li {
+        margin: 0 1.5rem;
+    }
+
+    nav .container ul li a {
+        font-size: 1.5rem;
+    }
+}
+

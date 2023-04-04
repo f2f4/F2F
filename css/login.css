@@ -1,0 +1,125 @@
+/* General CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Tilt+Neon&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+
+    /* Background Color */
+    --bg-dark: #111;
+    --bg-white: #fff;
+
+    /* Text Colors */
+    --primary-text: #061738;
+    --secondary-color: #60cd12;
+    --light-color: #e2f6de;
+    --dark-color: #03262c;
+    --text-white: #fff;
+    --text-gray: #dee2e6;
+    --anchor-color: #007aff;
+
+    /* green color */
+    --primary-green: #00ED64;
+    --secondary-green: #13aa52;
+    --tertiary-green: #023430;
+
+    /*  */
+
+    /* Font Family */
+    --primary-font: 'Tilt Neon', cursive;
+    --secondary-font: 'Caveat Brush', cursive;
+}
+
+
+body,
+html {
+    color: var(--primary-text);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--primary-text);
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--primary-text);
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-text);
+}
+
+
+p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--primary-text);
+}
+
+embed,
+iframe,
+img,
+object {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    background:var(--white); 
+} 
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+}  
+
+
+/* font awesome */
+.h11 {
+    font-family: MongoDB Value Serif;
+    word-break: break-word;
+    font-weight: 500;
+}
