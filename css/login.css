@@ -116,10 +116,112 @@ object {
     background: var(--secondary-color); 
 }  
 
-
-/* font awesome */
-.h11 {
-    font-family: MongoDB Value Serif;
-    word-break: break-word;
+/* main button */
+.main-btn {
+    background-color: #00ED64;
+    color: var(--primary-text);
+    font-size: 1.6rem;
     font-weight: 500;
+    padding: 16px 32px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    font-family: var(--primary-font);
+    transition: 0.1s;
+}
+
+.main-btn:hover {
+    border-radius: 3rem;
+}
+
+
+/* signup page */
+.signupPage {
+    display: flex;
+    justify-content: start;
+}
+
+
+.leftContainer {
+    width: 30rem;
+    height: 100vh;
+    position: fixed;
+    background: var(--tertiary-green);
+}
+
+.rightContainer {
+    margin: 5rem 0 0 35rem;
+    margin-left: 45vh;
+    width: 70vh;
+} 
+
+.rightContainer img {
+    width: 7rem;
+    margin: 0;
+}
+
+.rightContainer h1 {
+    color: var(--tertiary-green);
+    word-break: break-all;
+}
+
+
+.rightContainer a {
+    width: 35rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    margin: 3rem 0;
+}
+
+.rightContainer a i {
+    color: var(--tertiary-green);
+}
+
+.rightContainer a h4 {
+    color: var(--tertiary-green);
+}
+
+
+.rightContainer .divider {
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightContainer .divider hr {
+    width: 40%;
+}
+
+
+.rightContainer hr {
+    width: 35rem;
+    height: 0.2rem;
+    background: var(--tertiary-green);
+    border-radius: 100%;
+}
+
+
+/* form */
+form {
+    margin: 4rem 0;
+}
+
+input {
+    width: 35rem;
+    height: 3rem;
+
+    padding: 2rem;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    border: 2px solid var(--tertiary-green);
+    border-radius: 1rem;
+    transition: 0.3ss;
+}
+
+input:hover {
+    border: 2px solid var(--secondary-color);
 }
