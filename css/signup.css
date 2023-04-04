@@ -1,0 +1,239 @@
+/* General CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Tilt+Neon&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+
+    /* Background Color */
+    --bg-dark: #111;
+    --bg-white: #fff;
+
+    /* Text Colors */
+    --primary-text: #061738;
+    --secondary-color: #60cd12;
+    --light-color: #e2f6de;
+    --dark-color: #03262c;
+    --text-white: #fff;
+    --text-gray: #dee2e6;
+    --anchor-color: #007aff;
+
+    /* green color */
+    --primary-green: #00ED64;
+    --secondary-green: #13aa52;
+    --tertiary-green: #023430;
+
+    /*  */
+
+    /* Font Family */
+    --primary-font: 'Tilt Neon', cursive;
+    --secondary-font: 'Caveat Brush', cursive;
+}
+
+
+body,
+html {
+    color: var(--primary-text);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--primary-text);
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--primary-text);
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--primary-text);
+}
+
+
+p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--primary-text);
+}
+
+embed,
+iframe,
+img,
+object {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    background:var(--white); 
+} 
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+}  
+
+/* main button */
+.main-btn {
+    background-color: #00ED64;
+    color: var(--primary-text);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 16px 32px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    font-family: var(--primary-font);
+    transition: 0.1s;
+}
+
+.main-btn:hover {
+    border-radius: 3rem;
+}
+
+
+/* signup page */
+.signupPage {
+    display: flex;
+    justify-content: start;
+}
+
+
+.leftContainer {
+    width: 30rem;
+    height: 100vh;
+    position: fixed;
+    background: var(--tertiary-green);
+}
+
+.rightContainer {
+    margin: 5rem 0 0 35rem;
+    margin-left: 45vh;
+    width: 70vh;
+} 
+
+.rightContainer img {
+    width: 7rem;
+    margin: 0;
+}
+
+.rightContainer h1 {
+    color: var(--tertiary-green);
+    word-break: break-all;
+}
+
+
+.rightContainer a {
+    width: 35rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    margin: 3rem 0;
+}
+
+.rightContainer a i {
+    color: var(--tertiary-green);
+}
+
+.rightContainer a h4 {
+    color: var(--tertiary-green);
+}
+
+
+.rightContainer .divider {
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightContainer .divider hr {
+    width: 40%;
+}
+
+
+.rightContainer hr {
+    width: 35rem;
+    height: 0.2rem;
+    background: var(--tertiary-green);
+    border-radius: 100%;
+}
+
+
+/* form */
+form {
+    margin: 4rem 0;
+}
+
+input {
+    width: 35rem;
+    height: 3rem;
+
+    padding: 2rem;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    border: 2px solid var(--tertiary-green);
+    border-radius: 1rem;
+    transition: 0.3ss;
+}
+
+input:hover {
+    border: 2px solid var(--secondary-color);
+}
+
+form div {
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.checkbox {
+    width: 5rem;
+}
