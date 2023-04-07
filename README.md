@@ -21,7 +21,18 @@
 <br />
 <p>Social Media Home Page</p>
 ![Screenshot (31)](https://user-images.githubusercontent.com/108052802/230604210-98b02431-1830-4b11-b27e-3986c04ead6b.png)
+<br />
+<p>Post View Page</p>
+![Screenshot (33)](https://user-images.githubusercontent.com/108052802/230604631-6abf4d20-3996-43fd-95a4-9137537d073a.png)
+<br />
+<p>Video Uploading Page</p>
+![Screenshot (32)](https://user-images.githubusercontent.com/108052802/230604849-af3fe3d7-85f2-4b7f-88f5-6ddecdb8ceb1.png)
+<br />
+<p>Profile Page</p>
+![Screenshot (35)](https://user-images.githubusercontent.com/108052802/230604989-ae1dce44-5ee2-460f-94c4-8cf8aa3344b8.png)
 
+## video of the ongoing project
+https://drive.google.com/file/d/1UuUBQ7gGaYxAEoigApIQdyyjEpSlc112/view?usp=sharing
 <h4>The Tech Stack</h4>
 <ul>
     <li>Next.js</li>
