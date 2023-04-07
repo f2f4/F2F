@@ -1,0 +1,36 @@
+{
+  "name": "f2f",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.2.6",
+    "@sanity/client": "^3.3.0",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.32",
+    "@types/react-dom": "18.0.11",
+    "axios": "^0.27.2",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "gapi-script": "^1.2.0",
+    "jwt-decode": "^3.1.2",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.3.1",
+    "typescript": "5.0.3",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  }
+}
